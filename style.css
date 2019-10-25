@@ -41,36 +41,6 @@
     height: 85vh;
 }
 
-.img_holder {
-    background-color: #131313;
-    width: 40vw;
-    height: 70vh;
-    text-align: center;
-}
-
-.img_holder img {
-    margin: 4vh;
-    height: 90%;
-    width: 88%;
-}
-
-.img_footer {
-    height: 15vh;
-    background-color: black;
-}
-
-.img_footer h2 {
-    padding: 6vh;
-    text-align: center;
-    opacity: 0.65;
-    font-family: Montserrat;
-    font-size: 13px;
-    font-weight: normal;
-    line-height: 1.5;
-    letter-spacing: 5px;
-    color: #ffffff;
-}
-
 .details {
     width: 40%;
     height: 82.5%;
