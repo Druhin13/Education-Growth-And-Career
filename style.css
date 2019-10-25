@@ -44,11 +44,17 @@
 .img_holder {
     background-color: #131313;
     width: 40vw;
-    height: 100%;
+    height: 70vh;
     text-align: center;
 }
 
 .img_holder img {
     margin: 4vh;
-    height: 75%;
+    height: 90%;
+    width: 88%;
+}
+
+.img_footer {
+    height: 15vh;
+    background-color: black;
 }
