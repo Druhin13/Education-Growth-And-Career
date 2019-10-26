@@ -130,13 +130,16 @@
 }
 
 .hero_content {
-    margin-left: 10vw;
-    width: 40%
+    text-align: center;
+    margin-left: 8vw;
+    margin-right: 7vw;
+    width: 25%
 }
 
 .hero_content h1 {
+    text-align: left;
     margin-top: 12vh;
-    width: 60%;
+    width: 90%;
     font-family: Montserrat;
     font-size: 35px;
     font-weight: 600;
@@ -150,9 +153,14 @@
     font-family: Montserrat;
     line-height: 1.5;
     padding-top: 5vh;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: normal;
     letter-spacing: normal;
     text-align: left;
-    width: 75%;
+    width: 100%;
+}
+
+.hero_content img {
+    height: 4vh;
+    margin-top: 10vh;
 }
