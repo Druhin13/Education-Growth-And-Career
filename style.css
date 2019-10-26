@@ -173,21 +173,36 @@
 .prev {
     text-align: center;
     height: 10vh;
-    width: 13%;
+    width: 17.4%;
     background-color: #000000;
 }
 
-.prev img {
-    margin-top: 3vh;
+.prev img,
+.next img {
+    margin-top: 4vh;
+    height: 2vh;
 }
 
 .next {
     text-align: center;
     height: 10vh;
-    width: 13%;
+    width: 17.5%;
     background-color: #131313;
 }
 
-.next img {
-    margin-top: 3vh;
+.img_footer {
+    background-color: #000000;
+    width: 100%;
+    text-align: center;
+}
+
+.img_footer h2 {
+    opacity: 0.60;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 5px;
+    color: #ffffff;
+    margin-top: 3.5vh;
 }
