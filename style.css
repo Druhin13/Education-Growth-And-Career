@@ -121,3 +121,38 @@
     margin-top: 4vh;
     height: 90%;
 }
+
+.left_decor {
+    margin-top: 25vh;
+    width: 2%;
+    height: 22vh;
+    background-color: #0a5bfe;
+}
+
+.hero_content {
+    margin-left: 10vw;
+    width: 40%
+}
+
+.hero_content h1 {
+    margin-top: 12vh;
+    width: 60%;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.hero_content h2 {
+    font-family: Montserrat;
+    line-height: 1.5;
+    padding-top: 5vh;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: normal;
+    text-align: left;
+    width: 75%;
+}
