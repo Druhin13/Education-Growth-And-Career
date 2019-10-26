@@ -14,8 +14,8 @@
 }
 
 .nav {
-    margin-left: 45vw;
-    width: 50vw;
+    margin-left: 49vw;
+    width: 46vw;
     height: 15vh;
     background-color: #000000;
     display: flex;
@@ -123,16 +123,16 @@
 }
 
 .left_decor {
-    margin-top: 25vh;
+    margin-top: 20vh;
     width: 2%;
-    height: 22vh;
+    height: 26vh;
     background-color: #0a5bfe;
 }
 
 .hero_content {
     text-align: center;
-    margin-left: 8vw;
-    margin-right: 7vw;
+    margin-left: 9vw;
+    margin-right: 10vw;
     width: 25%
 }
 
@@ -163,4 +163,31 @@
 .hero_content img {
     height: 4vh;
     margin-top: 10vh;
+}
+
+.right {
+    margin-left: 46%;
+    display: flex;
+}
+
+.prev {
+    text-align: center;
+    height: 10vh;
+    width: 13%;
+    background-color: #000000;
+}
+
+.prev img {
+    margin-top: 3vh;
+}
+
+.next {
+    text-align: center;
+    height: 10vh;
+    width: 13%;
+    background-color: #131313;
+}
+
+.next img {
+    margin-top: 3vh;
 }
