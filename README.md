@@ -14,3 +14,12 @@
 <br>
 
 ![new-web-preview](https://user-images.githubusercontent.com/46156118/67588464-ccc0d500-f773-11e9-9520-04d9bd5e49fb.png)
+<br>
+<br>
+
+<hr>
+<b>Web Preview (29th Oct)</b>
+<br>
+<br>
+
+![homepage - final](https://user-images.githubusercontent.com/46156118/67765249-abacfc80-fa71-11e9-9fce-62d0345ee955.png)
