@@ -698,3 +698,87 @@ iframe {
 	margin-top: 6vh;
 	margin-left: 6vw;
 }
+
+.middle1 {
+	display: flex;
+}
+
+.middle1-1 {
+	width: 15.94vw;
+	height: 71.3vh;
+	background-color: #0a5bfe;
+}
+
+.middle1-1 h1 {
+	margin-left: 2.5vw;
+	margin-top: 5vh;
+	font-family: Montserrat;
+	font-size: 2.2vh;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+}
+
+.middle1-1 h2 {
+	margin-left: 2.5vw;
+	margin-top: 1.5vh;
+	opacity: 0.8;
+	font-family: Montserrat;
+	font-size: 2.2vh;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+	width: 12vw;
+}
+
+.middle1-1 h3 {
+	margin-left: 2.5vw;
+	margin-top: 28vh;
+	opacity: 0.8;
+	font-family: Montserrat;
+	font-size: 2.2vh;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+	width: 12vw;
+}
+
+.middle1-1 h4 {
+	margin-left: 2.5vw;
+	margin-top: 1.5vh;
+	font-family: Montserrat;
+	font-size: 2.2vh;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+}
+
+.middle1-1 h5 {
+	margin-left: 2.5vw;
+	margin-top: 3vh;
+	font-family: Montserrat;
+	font-size: 2.2vh;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+}
