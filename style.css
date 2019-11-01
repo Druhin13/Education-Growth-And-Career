@@ -407,3 +407,25 @@ iframe {
 	cursor: pointer;
 	width: 13.5vw;
 }
+
+.bottom3 {
+	display: flex;
+}
+
+.bottom3-1 {
+	height: 12.4vh;
+	width: 15.94vw;
+	background-color: #000;
+	text-align: center;
+}
+
+.bottom3-1 img {
+	height: 3.5vh;
+	margin-top: 4.45vh;
+}
+
+.bottom3-2 {
+	width: 37.06vw;
+	height: 12.4vh;
+	background-color: #000;
+}
