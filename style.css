@@ -10,7 +10,7 @@
 .left1 {
 	background-image: url(assets/vp1%20left%20bg.png);
 	height: 100vh;
-	width: 57vw;
+	width: 43.5vw;
 	z-index: 1;
 }
 
@@ -19,7 +19,7 @@
 	right: 0;
 	background-color: #131313;
 	height: 100vh;
-	width: 45.05vw;
+	width: 56.5vw;
 	z-index: 10;
 }
 
@@ -637,5 +637,20 @@ iframe {
 }
 
 .left1 > div {
+	display: flex;
+	margin-top: 10vh;
+}
+
+.design {
+	height: 23.4vh;
+	margin-top: 16vh;
+}
+
+.hero_text {
+	margin-left: 4.73vw;
+	width: 31.67vw;
+}
+
+.top1 {
 	display: flex;
 }
