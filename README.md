@@ -32,5 +32,13 @@
 <br>
 
 ![homepage - final – 2](https://user-images.githubusercontent.com/46156118/68007463-b6e66f00-fca1-11e9-8d40-bc8f0d420739.png)
+<br>
+<br>
 
+<hr>
+<b>Web Preview (2nd Nov)</b>
+<br>
+<br>
+
+![homepage - 1st nov - final](https://user-images.githubusercontent.com/46156118/68061175-8b0ecc00-fd29-11e9-896a-743fe24b534b.png)
 
