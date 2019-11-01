@@ -30,13 +30,13 @@
 .left2 {
 	background-color: #131313;
 	height: 100vh;
-	width: 31.15vw;
+	width: 42.97vw;
 }
 
 .right2 {
 	background-image: url(assets/vp2%20right%20bg.png);
 	height: 100vh;
-	width: 68.85vw;
+	width: 57.03vw;
 }
 
 .vp3 {
@@ -53,7 +53,7 @@
 .right3 {
 	position: absolute;
 	right: 0;
-	background-color: #131313;
+	background-color: #ffffff00;
 	height: 100vh;
 	width: 53vw;
 	z-index: 10;
@@ -428,4 +428,99 @@ iframe {
 	width: 37.06vw;
 	height: 12.4vh;
 	background-color: #000;
+}
+
+.top2 {
+	height: 15.55vh;
+	width: 31.15vw;
+	background-color: #000;
+}
+
+.middle2 {
+	display: flex;
+}
+
+.middle2-1 {
+	text-align: center;
+	width: 27vw;
+	height: 71.3vh;
+	background-color: #000;
+}
+
+.middle2-1 h1 {
+	margin-top: 2vh;
+	font-family: Montserrat;
+	font-size: 4.6vh;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.22;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+	margin-left: 3vw;
+}
+
+.middle2-1 h2 {
+	margin-top: 8.14vh;
+	font-family: Montserrat;
+	font-size: 2.5vh;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.36;
+	letter-spacing: normal;
+	text-align: left;
+	color: #cfcfcf;
+	margin-left: 3vw;
+}
+
+.middle2-1 h3 {
+	margin-top: 4.62vh;
+	font-family: Montserrat;
+	font-size: 2vh;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.36;
+	letter-spacing: normal;
+	text-align: left;
+	color: #cfcfcf;
+	opacity: 0.7;
+	margin-left: 3vw;
+	width: 20vw;
+}
+
+.middle2-1 h4 {
+	margin-top: 6vh;
+	margin-left: 3vw;
+	opacity: 0.8;
+	font-family: Montserrat;
+	font-size: 2vh;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+}
+
+.middle2-1 h5 {
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+	margin-left: 3vw;
+	margin-top: 0.5vh;
+}
+
+.middle2-1 img {
+	height: 3.5vh;
+	margin-top: 8.5vh;
 }
