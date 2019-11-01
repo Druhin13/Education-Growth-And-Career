@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 
 .vp1 {
@@ -784,6 +785,7 @@ iframe {
 }
 
 .middle1-2 {
+	overflow-y: hidden;
 	background-color: #131313;
 	height: 71.3vh;
 	width: 100%;
@@ -845,4 +847,3 @@ iframe {
 	color: #ffffff;
 	margin-top: 4.5vh;
 }
-
