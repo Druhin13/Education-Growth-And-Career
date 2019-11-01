@@ -28,7 +28,7 @@
 }
 
 .left2 {
-	background-color: #131313;
+	background-color: #000;
 	height: 100vh;
 	width: 42.97vw;
 }
@@ -523,4 +523,92 @@ iframe {
 .middle2-1 img {
 	height: 3.5vh;
 	margin-top: 8.5vh;
+}
+
+.middle2-2 {
+	width: 15.94vw;
+	height: 71.3vh;
+	background-color: #0a5bfe;
+}
+
+.middle2-2 h1 {
+	margin-left: 2.5vw;
+	margin-top: 8vh;
+	font-family: Montserrat;
+	font-size: 2.2vh;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+}
+
+.middle2-2 h3 {
+	margin-left: 2.5vw;
+	margin-top: 2.5vh;
+	opacity: 0.8;
+	font-family: Montserrat;
+	font-size: 2vh;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+	width: 12vw;
+}
+
+.middle2-2 h2 {
+	margin-left: 2.5vw;
+	margin-top: 1.25vh;
+	opacity: 0.8;
+	font-family: Montserrat;
+	font-size: 2vh;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+	width: 12vw;
+}
+
+.bottom2 {
+	display: flex;
+}
+
+.bottom2-1 {
+	height: 13.15vh;
+	width: 27vw;
+	background-color: #000;
+}
+
+.bottom2-2 {
+	display: flex;
+}
+
+.prev2 {
+	text-align: center;
+	width: 7.97vw;
+	height: 13.15vh;
+	background-color: #131313;
+}
+
+.prev2 img {
+	margin-top: 5.4vh;
+}
+
+.next2 {
+	text-align: center;
+	width: 7.97vw;
+	height: 13.15vh;
+	background-color: #000;
+}
+
+.next2 img {
+	margin-top: 5.4vh;
 }
