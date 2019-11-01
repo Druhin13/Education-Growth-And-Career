@@ -612,3 +612,20 @@ iframe {
 .next2 img {
 	margin-top: 5.4vh;
 }
+
+.gallery {
+	margin-top: 17.78vh;
+	margin-left: 4vw;
+	display: flex;
+}
+
+.gallery img {
+	height: 64.45vh;
+	margin-right: 1vw;
+}
+
+.right2 > img {
+	margin-top: 8vh;
+	margin-left: 23.4vw;
+	width: 4.64vw;
+}
