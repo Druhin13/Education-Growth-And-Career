@@ -23,3 +23,14 @@
 <br>
 
 ![homepage - final](https://user-images.githubusercontent.com/46156118/67765249-abacfc80-fa71-11e9-9fce-62d0345ee955.png)
+<br>
+<br>
+
+<hr>
+<b>Web Preview (29th Oct)</b>
+<br>
+<br>
+
+![homepage - final – 2](https://user-images.githubusercontent.com/46156118/68007463-b6e66f00-fca1-11e9-8d40-bc8f0d420739.png)
+
+
