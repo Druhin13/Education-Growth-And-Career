@@ -202,3 +202,22 @@ iframe {
 	height: 29.35vh;
 	width: 29.82vw;
 }
+
+.left3 {
+	display: flex;
+}
+
+.mentors {
+	margin-top: 26.4vh;
+	margin-left: 10.7vw;
+	width: 25vw;
+}
+
+.mentors img {
+	margin-top: 2vh;
+}
+
+.left3 > img {
+	height: 23.4vh;
+	margin-top: 38.25vh;
+}
