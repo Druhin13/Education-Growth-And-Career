@@ -63,4 +63,142 @@
 	background-color: #131313;
 	height: 42.6vh;
 	width: 100vw;
+	display: flex;
+}
+
+.social h1 {
+	font-family: Montserrat;
+	font-size: 2.2vh;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+}
+
+.email h1 {
+	font-family: Montserrat;
+	font-size: 2.2vh;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+}
+
+.phone h1 {
+	font-family: Montserrat;
+	font-size: 2.2vh;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+}
+
+.address h1 {
+	font-family: Montserrat;
+	font-size: 2.2vh;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+}
+
+.email h2 {
+	margin-top: 2.5vh;
+	opacity: 0.8;
+	font-family: Montserrat;
+	font-size: 2.2vh;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+}
+
+.phone h2 {
+	margin-top: 2.5vh;
+	opacity: 0.8;
+	font-family: Montserrat;
+	font-size: 2.2vh;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+}
+
+.phone h3 {
+	opacity: 0.8;
+	font-family: Montserrat;
+	font-size: 2.2vh;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+}
+
+.address h2 {
+	margin-top: 2.5vh;
+	opacity: 0.8;
+	font-family: Montserrat;
+	font-size: 2.2vh;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+	width: 14vw;
+}
+
+.social img {
+	margin-top: 3.5vh;
+	height: 1.85vh;
+	margin-right: 0.625vw
+}
+
+.social {
+	margin-left: 2.65vw;
+	margin-top: 12.6vh;
+}
+
+.email {
+	margin-left: 5.20vw;
+	margin-top: 12.6vh;
+}
+
+.phone {
+	margin-left: 5.20vw;
+	margin-top: 12.6vh;
+}
+
+.address {
+	margin-left: 5.20vw;
+	margin-top: 12.6vh;
+}
+
+iframe {
+	margin-left: 5.20vw;
+	margin-top: 6.67vh;
+	height: 29.35vh;
+	width: 29.82vw;
 }
