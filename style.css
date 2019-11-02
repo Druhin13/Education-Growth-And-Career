@@ -8,6 +8,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+a {
+	text-decoration: none;
+}
+
 .vp1 {
 	display: flex;
 }
