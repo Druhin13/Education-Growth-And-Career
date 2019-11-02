@@ -225,7 +225,7 @@ iframe {
 }
 
 .mentors {
-	margin-top: 26.4vh;
+	margin-top: 14.4vh;
 	margin-left: 10.7vw;
 	width: 25vw;
 }
@@ -948,4 +948,12 @@ iframe {
 	100% {
 		opacity: 0
 	}
+}
+
+.mentors :first-child {
+	width: 14.8vw;
+}
+
+.mentors {
+	text-align: center;
 }
