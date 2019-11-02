@@ -8,12 +8,18 @@ html {
 	scroll-behavior: smooth;
 }
 
+.body {
+	scroll-snap-type: y mandatory;
+}
+
 a {
 	text-decoration: none;
 }
 
+
 .vp1 {
 	display: flex;
+	scroll-snap-align: start;
 }
 
 .left1 {
@@ -34,6 +40,7 @@ a {
 
 .vp2 {
 	display: flex;
+	scroll-snap-align: start;
 }
 
 .left2 {
@@ -50,6 +57,7 @@ a {
 
 .vp3 {
 	display: flex;
+	scroll-snap-align: start;
 }
 
 .left3 {
@@ -854,4 +862,90 @@ iframe {
 	letter-spacing: 5px;
 	color: #ffffff;
 	margin-top: 4.5vh;
+}
+
+.slide1,
+.slide2,
+.slide3 {
+	position: absolute;
+	width: 90%;
+	height: 65vh;
+	margin-left: -5vw;
+	margin-top: 3vh;
+}
+
+.slide1 {
+	background: url(assets/hero_img.png) no-repeat center;
+	background-size: contain;
+	animation: fade 10s infinite;
+	-webkit-animation: fade 10s infinite;
+
+}
+
+.slide2 {
+	background: url(assets/hero_img2.png) no-repeat center;
+	background-size: contain;
+	animation: fade2 10s infinite;
+	-webkit-animation: fade2 10s infinite;
+}
+
+.slide3 {
+	background: url(assets/hero_img3.png) no-repeat center;
+	background-size: contain;
+	animation: fade3 10s infinite;
+	-webkit-animation: fade3 10s infinite;
+}
+
+@keyframes fade {
+	0% {
+		opacity: 1
+	}
+
+	33.333% {
+		opacity: 0
+	}
+
+	66.666% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 1
+	}
+}
+
+@keyframes fade2 {
+	0% {
+		opacity: 0
+	}
+
+	33.333% {
+		opacity: 1
+	}
+
+	66.666% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+
+@keyframes fade3 {
+	0% {
+		opacity: 0
+	}
+
+	33.333% {
+		opacity: 0
+	}
+
+	66.666% {
+		opacity: 1
+	}
+
+	100% {
+		opacity: 0
+	}
 }
