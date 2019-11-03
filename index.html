@@ -12,6 +12,75 @@
 
 <body>
 
+	<script>
+		function next() {
+
+
+			if (document.getElementById("a1").innerHTML === "01") {
+				document.getElementById("a1").innerHTML = "02";
+				document.getElementById("a2").innerHTML = "B.tech";
+				document.getElementById("a3").innerHTML = "Undergraduate academic degree considered to be a skill-oriented course, which is always in demand";
+				document.getElementById("a4").innerHTML = "3/4 years";
+				document.getElementById("a5").innerHTML = "750+ enrolled";
+			} 
+			
+			else if (document.getElementById("a1").innerHTML === "02") {
+				document.getElementById("a1").innerHTML = "03";
+				document.getElementById("a2").innerHTML = "BBA";
+				document.getElementById("a3").innerHTML = "One of the best course to prepare your skill-set according to the demand of current market";
+				document.getElementById("a4").innerHTML = "3 years";
+				document.getElementById("a5").innerHTML = "500+ enrolled";
+			} 
+			
+			else if (document.getElementById("a1").innerHTML === "03") {
+				document.getElementById("a1").innerHTML = "01";
+				document.getElementById("a2").innerHTML = "BCA";
+				document.getElementById("a3").innerHTML = "Passionate about computers & coding ? This is the course that'll ensure high paying jobs for you";
+				document.getElementById("a4").innerHTML = "3 years";
+				document.getElementById("a5").innerHTML = "1000+ enrolled";
+			}
+		}
+		
+		
+		
+		
+		function prev() {
+
+
+			if (document.getElementById("a1").innerHTML === "03") {
+				document.getElementById("a1").innerHTML = "02";
+				document.getElementById("a2").innerHTML = "B.tech";
+				document.getElementById("a3").innerHTML = "Undergraduate academic degree considered to be a skill-oriented course, which is always in demand";
+				document.getElementById("a4").innerHTML = "3/4 years";
+				document.getElementById("a5").innerHTML = "750+ enrolled";
+			} 
+			
+			else if (document.getElementById("a1").innerHTML === "01") {
+				document.getElementById("a1").innerHTML = "03";
+				document.getElementById("a2").innerHTML = "BBA";
+				document.getElementById("a3").innerHTML = "One of the best course to prepare your skill-set according to the demand of current market";
+				document.getElementById("a4").innerHTML = "3 years";
+				document.getElementById("a5").innerHTML = "500+ enrolled";
+			} 
+			
+			else if (document.getElementById("a1").innerHTML === "02") {
+				document.getElementById("a1").innerHTML = "01";
+				document.getElementById("a2").innerHTML = "BCA";
+				document.getElementById("a3").innerHTML = "Passionate about computers & coding ? This is the course that'll ensure high paying jobs for you";
+				document.getElementById("a4").innerHTML = "3 years";
+				document.getElementById("a5").innerHTML = "1000+ enrolled";
+			}
+		}
+	</script>
+
+
+
+
+
+
+
+
+
 
 	<div class="vp1" id="vp1">
 
@@ -49,11 +118,11 @@
 			<div class="middle1">
 
 				<div class="middle1-1">
-					<h5>01</h5>
-					<h1>Image title</h1>
-					<h2>Lorem Ipsum gfdd Doler sit gds (Description of the above picture)</h2>
-					<h3>28 / 8 / 19</h3>
-					<h4>Lorem ipsum do</h4>
+					<h5 id="a1">01</h5>
+					<h1 id="a2">BCA</h1>
+					<h2 id="a3">Passionate about computers & coding ? This is the course that'll ensure high paying jobs for you</h2>
+					<h3 id="a4">3 years</h3>
+					<h4 id="a5">1000+ enrolled</h4>
 				</div>
 
 				<div class="middle1-2">
@@ -71,10 +140,10 @@
 
 			<div class="bottom1">
 				<div class="bottom1-1">
-					<div class="prev1">
+					<div class="prev1" onclick="prev()">
 						<img src="assets/prev.svg">
 					</div>
-					<div class="next1">
+					<div class="next1" onclick="next()">
 						<img src="assets/next.svg">
 					</div>
 				</div>
