@@ -1195,6 +1195,60 @@ iframe {
 		width: 3vw;
 		margin-top: 5vh;
 	}
+	
+	.gallery {
+		margin-top: 7.5vh;
+		margin-left: 9.5vw;
+		height: 30vh;
+		width: 80vw;
+	}
+	
+	#c1 {
+		height: 30vh;
+		width: 60vw;
+		margin-right: 3vw;
+	}
+	
+	#c2 {
+		height: 30vh;
+		width: 60vw;
+		margin-right: 3vw;
+	}
+	
+	.middle2 {
+		background-color: #AEAEAE;
+	}
+	
+	.bottom2-2 {
+		position: absolute;
+		margin-top: -70.6vh;
+		margin-left: 71.6vw;
+		height: 6.3vh;
+		width: 25vw;
+	}
+	
+	.prev2 {
+		height: 6.3vh;
+		width: 12.5vw;
+	}
+
+	.next2 {
+		height: 6.3vh;
+		width: 12.5vw;
+	}
+
+	.prev2 img {
+		margin-top: 2.7vh;
+		height: 1.5vh;
+	}
+
+	.next2 img {
+		margin-top: 2.7vh;
+		height: 1.5vh;
+	}
+	
+	
+	
 
 
 
