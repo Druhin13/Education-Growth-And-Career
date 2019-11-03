@@ -962,7 +962,7 @@ iframe {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 540px) {
 
 	.logo {
 		margin-top: 0vh;
@@ -1021,8 +1021,10 @@ iframe {
 
 	.bottom1-1 {
 		position: absolute;
-		margin-top: -60vh;
-
+		margin-top: -41.3vh;
+		margin-left: 67vw;
+		height: 12vw;
+		width: 30vw;
 	}
 
 	.middle1-1 {
@@ -1087,4 +1089,6 @@ iframe {
 		margin-top: -7.5vh;
 		margin-left: 14vw;
 	}
+	
+	
 }
