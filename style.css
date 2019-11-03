@@ -2,15 +2,13 @@
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
+	
 }
 
 html {
 	scroll-behavior: smooth;
 }
 
-.body {
-	scroll-snap-type: y mandatory;
-}
 
 a {
 	text-decoration: none;
@@ -19,7 +17,6 @@ a {
 
 .vp1 {
 	display: flex;
-	scroll-snap-align: start;
 }
 
 .left1 {
@@ -40,7 +37,6 @@ a {
 
 .vp2 {
 	display: flex;
-	scroll-snap-align: start;
 }
 
 .left2 {
@@ -57,7 +53,6 @@ a {
 
 .vp3 {
 	display: flex;
-	scroll-snap-align: start;
 }
 
 .left3 {
@@ -664,6 +659,7 @@ iframe {
 }
 
 .hero_text {
+	margin-top: 4vh;
 	margin-left: 4.73vw;
 	width: 31.67vw;
 }
@@ -868,9 +864,9 @@ iframe {
 .slide2,
 .slide3 {
 	position: absolute;
-	width: 90%;
+	width: 40vw;
 	height: 65vh;
-	margin-left: -5vw;
+	margin-left: 0.25vw;
 	margin-top: 3vh;
 }
 
@@ -951,6 +947,7 @@ iframe {
 }
 
 .mentors :first-child {
+	height: 10vh;
 	width: 14.8vw;
 }
 
