@@ -1286,7 +1286,7 @@ iframe {
 		height: 4vh;
 		width: 25vw;
 		margin-top: 2vh;
-        margin-left: 8vw;
+		margin-left: 8vw;
 		margin-bottom: 1vh;
 	}
 
@@ -1295,20 +1295,103 @@ iframe {
 		width: 65vw;
 		margin-top: -16.5vh;
 	}
-	
+
 	.top3-2 {
 		margin-left: 47vw;
 		height: 16.5vh;
 	}
-	
+
 	.middle3-1 {
 		position: absolute;
 		margin-left: 65vw;
 		width: 35vw;
 		height: 43.8vh;
 	}
-	
-	
+
+	.middle3-2 h1 {
+		margin-top: 10vh;
+		font-size: 5vw;
+		margin-left: 10vw;
+	}
+
+	.enter_name {
+		margin-left: 10vw;
+		margin-top: 7vh;
+		width: 35vw;
+		height: 1vh;
+		font-size: 2.5vw;
+		border: 1px solid #fff;
+	}
+
+	.enter_email {
+		margin-left: 10vw;
+		margin-top: 1vh;
+		width: 40vw;
+		height: 1vh;
+		font-size: 2.5vw;
+		border: 1px solid #fff;
+	}
+
+	.enter_phone {
+		margin-left: 10vw;
+		margin-top: 1vh;
+		width: 35vw;
+		height: 1vh;
+		font-size: 2.5vw;
+		border: 1px solid #fff;
+	}
+
+	.enter_quali {
+		margin-left: 10vw;
+		margin-top: 1vh;
+		width: 35vw;
+		height: 4vh;
+		font-size: 2vw;
+		border: 1px solid #fff;
+	}
+
+	.enter_pref_course {
+		margin-left: 10vw;
+		margin-top: 1vh;
+		width: 35vw;
+		height: 4vh;
+		font-size: 2vw;
+		border: 1px solid #fff;
+	}
+
+	.submit {
+		margin-left: 10vw;
+		width: 25vw;
+		height: 4vh;
+		font-size: 2.5vw;
+		overflow-y: hidden;
+	}
+
+	.middle3-1 h1 {
+		font-size: 2.7vw;
+		margin-top: 4.5vh;
+		margin-left: 5vw;
+	}
+
+	.middle3-1 h2 {
+		font-size: 2.2vw;
+		margin-top: 1.5vh;
+		margin-left: 5vw;
+		width: 25vw;
+	}
+
+	.middle3-1 h3 {
+		font-size: 2.2vw;
+		margin-top: 15.5vh;
+		margin-left: 5vw;
+		width: 25vw;
+	}
+
+	.middle3-1 h4 {
+		font-size: 2.7vw;
+		margin-top: 0.5vh;
+		margin-left: 5vw;
+	}
 
 
 }
