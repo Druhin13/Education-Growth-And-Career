@@ -41,4 +41,13 @@
 <br>
 
 ![homepage - 1st nov - final](https://user-images.githubusercontent.com/46156118/68061175-8b0ecc00-fd29-11e9-896a-743fe24b534b.png)
+<br>
+<br>
+
+<hr>
+<b>Mobile Preview Added (4th Nov)</b>
+<br>
+<br>
+
+![gfhgfhfh](https://user-images.githubusercontent.com/46156118/68093491-043e2880-febc-11e9-90a7-c2a01a79bd47.png)
 
