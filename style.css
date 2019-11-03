@@ -1004,11 +1004,7 @@ iframe {
 		height: 35vh;
 		margin-top: 40vh;
 	}
-
-	.bottom1 {
-		position: absolute;
-	}
-
+	
 	.bottom1-2 {
 		height: 10vh;
 		width: 100vw;
@@ -1022,9 +1018,29 @@ iframe {
 	.bottom1-1 {
 		position: absolute;
 		margin-top: -41.3vh;
-		margin-left: 67vw;
-		height: 12vw;
-		width: 30vw;
+		margin-left: 71.6vw;
+		height: 6.3vh;
+		width: 25vw;
+	}
+	
+	.prev1{
+		height: 6.3vh;
+		width: 12.5vw;
+	}
+	
+	.next1{
+		height: 6.3vh;
+		width: 12.5vw;
+	}
+	
+	.prev1 img {
+		margin-top: 2.7vh;
+		height: 1.5vh;
+	}
+	
+	.next1 img {
+		margin-top: 2.7vh;
+		height: 1.5vh;
 	}
 
 	.middle1-1 {
@@ -1090,5 +1106,9 @@ iframe {
 		margin-left: 14vw;
 	}
 	
+	.middle2 {
+		position: absolute
+		width: 100vw;
+	}
 	
 }
