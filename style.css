@@ -1004,7 +1004,7 @@ iframe {
 		height: 35vh;
 		margin-top: 40vh;
 	}
-	
+
 	.bottom1-2 {
 		height: 10vh;
 		width: 100vw;
@@ -1022,22 +1022,22 @@ iframe {
 		height: 6.3vh;
 		width: 25vw;
 	}
-	
-	.prev1{
+
+	.prev1 {
 		height: 6.3vh;
 		width: 12.5vw;
 	}
-	
-	.next1{
+
+	.next1 {
 		height: 6.3vh;
 		width: 12.5vw;
 	}
-	
+
 	.prev1 img {
 		margin-top: 2.7vh;
 		height: 1.5vh;
 	}
-	
+
 	.next1 img {
 		margin-top: 2.7vh;
 		height: 1.5vh;
@@ -1070,7 +1070,7 @@ iframe {
 
 	.middle1-1 h3 {
 		font-size: 2.5vw;
-		margin-top: 19vh;
+		margin-top: 15vh;
 		margin-left: 5.5vw;
 	}
 
@@ -1102,13 +1102,12 @@ iframe {
 	.hero_text {
 		position: absolute;
 		width: 70vw;
-		margin-top: -7.5vh;
+		margin-top: -8.5vh;
 		margin-left: 14vw;
 	}
-	
+
 	.middle2 {
-		position: absolute
-		width: 100vw;
+		position: absolute width: 100vw;
 	}
-	
+
 }
