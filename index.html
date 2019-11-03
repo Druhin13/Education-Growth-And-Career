@@ -66,16 +66,55 @@
 			else if (document.getElementById("a1").innerHTML === "02") {
 				document.getElementById("a1").innerHTML = "01";
 				document.getElementById("a2").innerHTML = "BCA";
-				document.getElementById("a3").innerHTML = "Passionate about computers & coding ? This is the course that'll ensure high paying jobs for you";
+				document.getElementById("a3").innerHTML = "Passionate about computers & coding? This is the course that'll ensure high paying jobs for you";
 				document.getElementById("a4").innerHTML = "3 years";
 				document.getElementById("a5").innerHTML = "1000+ enrolled";
 			}
 		}
+		
+		
+		
+		
+		function next2() {
+
+			
+			if (document.getElementById("c1").src === "course1.png") {
+				document.getElementById("c1").src = "assets/course2.png";
+				document.getElementById("c2").src = "assets/course3.png";
+			}
+			
+			else if (document.getElementById("c1").src === "assets/course2.png") {
+				document.getElementById("c1").src = "assets/course3.png";
+				document.getElementById("c2").src = "assets/course4.png";
+			}
+			
+			else if (document.getElementById("c1").src === "assets/course3.png") {
+				document.getElementById("c1").src = "assets/course4.png";
+				document.getElementById("c2").src = "assets/course5.png";
+			}
+			
+			else if (document.getElementById("c1").src === "assets/course4.png") {
+				document.getElementById("c1").src = "assets/course5.png";
+				document.getElementById("c2").src = "assets/course6.png";
+			}
+			
+			else if (document.getElementById("c1").src === "assets/course5.png") {
+				document.getElementById("c1").src = "assets/course6.png";
+				document.getElementById("c2").src = "assets/course1.png";
+			}
+			
+			else {
+				document.getElementById("c1").src = "assets/course1.png";
+				document.getElementById("c2").src = "assets/course2.png";
+			}
+		
+		}
+		
+		
+		
+		
+		
 	</script>
-
-
-
-
 
 
 
@@ -120,7 +159,7 @@
 				<div class="middle1-1">
 					<h5 id="a1">01</h5>
 					<h1 id="a2">BCA</h1>
-					<h2 id="a3">Passionate about computers & coding ? This is the course that'll ensure high paying jobs for you</h2>
+					<h2 id="a3">Passionate about computers & coding? This is the course that'll ensure high paying jobs for you</h2>
 					<h3 id="a4">3 years</h3>
 					<h4 id="a5">1000+ enrolled</h4>
 				</div>
@@ -168,15 +207,15 @@
 				<div class="middle2-1">
 					<h1>Courses</h1>
 					<h2>Lorem ipsum dolor sit amet, consectetur adipiscing or.</h2>
-					<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus at augue eget arcu. Ridiculus mus mauris vitae ultricies leo integer malesuada. Egestas </h3>
-					<h4>28 / 8 / 19</h4>
-					<h5>Lorem ipsum do</h5>
+					<h3>We do assessment, the results of which are used as the basis for a more detailed discussion Knowing your own strengths and aptitudes is a critical part of career planning, but self-assessment is not always easy.</h3>
+					<h4>Offering</h4>
+					<h5>100+ courses</h5>
 					<img src="assets/scroll.svg">
 				</div>
 
 				<div class="middle2-2">
 					<h1>Degree Courses</h1>
-					<h3>BCA</h3>
+					<h3>BCA</h3>     
 					<h2>Civil Eng</h2>
 					<h2>CSE</h2>
 					<h2>Electrical Eng</h2>
@@ -187,7 +226,7 @@
 					<h2>Lorem Ipsum</h2>
 					<h2>BCA</h2>
 					<h2>Civil Eng</h2>
-					<h2>CSE</h2>
+					<h2>and more..</h2>
 				</div>
 			</div>
 
@@ -196,10 +235,10 @@
 
 				</div>
 				<div class="bottom2-2">
-					<div class="prev2" onclick="prev();">
+					<div class="prev2" onclick="prev2()">
 						<img src="assets/prev.svg">
 					</div>
-					<div class="next2" onclick="next();">
+					<div class="next2" onclick="next2()">
 						<img src="assets/next.svg">
 					</div>
 				</div>
