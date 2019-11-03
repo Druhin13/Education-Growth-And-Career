@@ -2,13 +2,20 @@
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
-	
+
 }
 
 html {
 	scroll-behavior: smooth;
 }
 
+body {
+	overflow-y: hidden;
+}
+
+div {
+	overflow-y: hidden;
+}
 
 a {
 	text-decoration: none;
@@ -22,14 +29,14 @@ a {
 .left1 {
 	background-image: url(assets/vp1%20left%20bg.png);
 	height: 100vh;
-	width: 43.5vw;
+	width: 55.48vw;
 	z-index: 1;
 }
 
 .right1 {
 	position: absolute;
 	right: 0;
-	background-color: #131313;
+	background-color: #ffffff00;
 	height: 100vh;
 	width: 56.5vw;
 	z-index: 10;
@@ -40,7 +47,7 @@ a {
 }
 
 .left2 {
-	background-color: #000;
+	background-color: #DEDEDE;
 	height: 100vh;
 	width: 42.97vw;
 }
@@ -453,6 +460,7 @@ iframe {
 }
 
 .middle2-1 {
+	overflow-y: hidden;
 	text-align: center;
 	width: 27vw;
 	height: 71.3vh;
@@ -636,12 +644,6 @@ iframe {
 	margin-right: 1vw;
 }
 
-.right2 > img {
-	margin-top: 8vh;
-	margin-left: 23.4vw;
-	width: 4.64vw;
-}
-
 .logo {
 	height: 9.72vh;
 	margin-top: 2.96vh;
@@ -679,7 +681,7 @@ iframe {
 .top1-1 {
 	width: 11.98vw;
 	height: 15.56vh;
-	background-color: #131313;
+	background-color: #ffffff00;
 }
 
 .top1-2 h1 {
@@ -953,4 +955,49 @@ iframe {
 
 .mentors {
 	text-align: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+	.logo {
+		margin-top: 0vh;
+		margin-left: 4vw;
+		height: 10vh;
+		width: 10vw;
+	}
+
+	.left1 {
+		width: 100vw;
+	}
+
+	.right1 {
+		width: 100%;
+	}
+
+	.top1-1 {
+		width: 18vw;
+	}
+
+	.top1-2 {
+		right: 0;
+		width: 82vw;
+		height: 10vh;
+	}
+
+	.top1-2 h1,
+	.top1-2 h2 {
+		margin-top: 4vh;
+		font-size: 3vw;
+		margin-right: 6vw;
+	}
+
+	.top1-2 h2 {
+		margin-left: 7.5vw;
+	}
+
 }
