@@ -67,27 +67,37 @@
 
 
 
-		function next2() {
+		var image_tracker = "1";
 
+		function next1() {
 
-			if (document.getElementById("c1").src === "course1.png") {
-				document.getElementById("c1").src = "assets/course2.png";
-				document.getElementById("c2").src = "assets/course3.png";
-			} else if (document.getElementById("c1").src === "assets/course2.png") {
-				document.getElementById("c1").src = "assets/course3.png";
-				document.getElementById("c2").src = "assets/course4.png";
-			} else if (document.getElementById("c1").src === "assets/course3.png") {
-				document.getElementById("c1").src = "assets/course4.png";
-				document.getElementById("c2").src = "assets/course5.png";
-			} else if (document.getElementById("c1").src === "assets/course4.png") {
-				document.getElementById("c1").src = "assets/course5.png";
-				document.getElementById("c2").src = "assets/course6.png";
-			} else if (document.getElementById("c1").src === "assets/course5.png") {
-				document.getElementById("c1").src = "assets/course6.png";
-				document.getElementById("c2").src = "assets/course1.png";
+			var image1 = document.getElementById("c1");
+			var image2 = document.getElementById("c2");
+
+			if (image_tracker === "1") {
+				image1.src = "assets/course2.png";
+				image2.src = "assets/course3.png";
+				image_tracker = "2";
+			} else if (image_tracker === "2") {
+				image1.src = "assets/course3.png";
+				image2.src = "assets/course4.png";
+				image_tracker = "3";
+			} else if (image_tracker === "3") {
+				image1.src = "assets/course4.png";
+				image2.src = "assets/course5.png";
+				image_tracker = "4";
+			} else if (image_tracker === "4") {
+				image1.src = "assets/course5.png";
+				image2.src = "assets/course6.png";
+				image_tracker = "5";
+			} else if (image_tracker === "5") {
+				image1.src = "assets/course6.png";
+				image2.src = "assets/course1.png";
+				image_tracker = "6";
 			} else {
-				document.getElementById("c1").src = "assets/course1.png";
-				document.getElementById("c2").src = "assets/course2.png";
+				image1.src = "assets/course1.png";
+				image2.src = "assets/course2.png";
+				image_tracker = "1";
 			}
 
 		}
@@ -212,10 +222,10 @@
 
 				</div>
 				<div class="bottom2-2">
-					<div class="prev2" onclick="prev2()">
+					<div class="prev2" onclick="prev1()">
 						<img src="assets/prev.svg">
 					</div>
-					<div class="next2" onclick="next2()">
+					<div class="next2" onclick="next1()">
 						<img src="assets/next.svg">
 					</div>
 				</div>
