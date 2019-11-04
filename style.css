@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
-
 }
 
 html {
@@ -1465,13 +1464,14 @@ iframe {
 
 
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1000px) {
 
 	.logo {
-		margin-top: 0vh;
+		margin-top: 1vh;
 		margin-left: 4vw;
-		height: 10vh;
-		width: 10vw;
+		height: 8vh;
+		width: 8vw;
+		margin-left: 5vw;
 	}
 
 	.left1 {
@@ -1494,13 +1494,13 @@ iframe {
 
 	.top1-2 h1,
 	.top1-2 h2 {
-		margin-top: 4vh;
-		font-size: 2.7vw;
-		margin-right: 7.5vw;
+		margin-top: 3.75vh;
+		font-size: 2.25vw;
+		margin-right: 8.5vw;
 	}
 
 	.top1-2 h2 {
-		margin-left: 7.5vw;
+		margin-left: 10.5vw;
 	}
 
 	.middle1 {
@@ -1515,13 +1515,13 @@ iframe {
 	}
 
 	.bottom1-2 h1 {
-		font-size: 2.3vw;
+		font-size: 2.25vw;
 	}
 
 	.bottom1-1 {
 		position: absolute;
 		margin-top: -41.3vh;
-		margin-left: 71.6vw;
+		margin-left: 75vw;
 		height: 6.3vh;
 		width: 25vw;
 	}
@@ -1550,42 +1550,42 @@ iframe {
 		position: absolute;
 		margin-top: -10.1vh;
 		height: 45vh;
-		width: 40vw;
+		width: 35vw;
 	}
 
 	.middle1-1 h5 {
-		font-size: 2.7vw;
-		margin-left: 5.5vw;
+		font-size: 2.25vw;
+		margin-left: 4vw;
 	}
 
 	.middle1-1 h1 {
-		margin-top: 3vh;
-		font-size: 2.7vw;
-		margin-left: 5.5vw;
+		margin-top: 2vh;
+		font-size: 2.25vw;
+		margin-left: 4vw;
 	}
 
 	.middle1-1 h2 {
-		font-size: 2.5vw;
+		font-size: 2vw;
 		width: 25vw;
 		margin-top: 0.75vh;
-		margin-left: 5.5vw;
+		margin-left: 4vw;
 	}
 
 	.middle1-1 h3 {
-		font-size: 2.5vw;
-		margin-top: 15vh;
-		margin-left: 5.5vw;
+		font-size: 2vw;
+		margin-top: 14vh;
+		margin-left: 4vw;
 	}
 
 	.middle1-1 h4 {
-		font-size: 2.7vw;
+		font-size: 2.25vw;
 		margin-top: 0.5vh;
-		margin-left: 5.5vw;
+		margin-left: 4vw;
 	}
 
 	.middle1-2 {
-		margin-left: 40vw;
-		padding-left: 3vw;
+		margin-left: 35vw;
+		padding-left: 7.5vw;
 	}
 
 	.slide1,
@@ -1599,22 +1599,24 @@ iframe {
 		position: absolute;
 		height: 12vh;
 		width: 2vw;
-		margin-top: -1vh;
+		margin-top: 0vh;
 	}
 
 	.hero_text {
 		position: absolute;
-		width: 70vw;
+		width: 60vw;
 		margin-top: -8.5vh;
-		margin-left: 14vw;
+		margin-left: 21.5vw;
 	}
+
+
+
+
+
 
 	.middle2 {
 		position: absolute width: 100vw;
 	}
-
-
-
 
 	.left2 {
 		position: absolute;
@@ -1632,78 +1634,78 @@ iframe {
 	}
 
 	.middle2-1 {
-		width: 60vw;
+		width: 65vw;
 	}
 
 	.middle2-2 {
 		margin-top: 7vh;
-		width: 40vw;
+		width: 35vw;
 		height: 48vh;
 	}
 
 	.middle2-2 h1 {
 		margin-left: 5vw;
 		margin-top: 4vh;
-		font-size: 2.5vw;
+		font-size: 2vw;
 	}
 
 	.middle2-2 h2 {
 		margin-left: 5vw;
-		margin-top: 1vh;
-		font-size: 2.2vw;
+		margin-top: 0.5vh;
+		font-size: 1.8vw;
 	}
 
 	.middle2-2 h3 {
 		margin-left: 5vw;
-		margin-top: 3.5vh;
-		font-size: 2.2vw;
+		margin-top: 2.5vh;
+		font-size: 1.8vw;
 	}
 
 	.middle2-1 h1 {
-		font-size: 4.5vw;
-		margin-top: 8.5vh;
+		font-size: 3.5vw;
+		margin-top: 6.5vh;
 		margin-left: 6vw;
 	}
 
 	.middle2-1 h2 {
 		width: 25vh;
-		font-size: 2.8vw;
-		margin-top: 3vh;
+		font-size: 2.4vw;
+		margin-top: 2.5vh;
 		margin-left: 6vw;
 	}
 
 	.middle2-1 h3 {
 		width: 25vh;
-		font-size: 2.5vw;
+		font-size: 2.2vw;
 		margin-top: 3vh;
 		margin-left: 6vw;
 	}
 
 	.middle2-1 h4 {
 		width: 25vh;
-		font-size: 2.5vw;
+		font-size: 2.2vw;
 		margin-top: 3vh;
 		margin-left: 6vw;
 	}
 
 	.middle2-1 h5 {
 		width: 25vh;
-		font-size: 2.8vw;
-		margin-top: vh;
+		font-size: 2.4vw;
+		margin-top: 0.25vh;
 		margin-left: 6vw;
 	}
 
 	.middle2-1 img {
 		height: 2.5vh;
 		width: 3vw;
-		margin-top: 5vh;
+		margin-top: 4vh;
 	}
 
 	.gallery {
 		margin-top: 7.5vh;
-		margin-left: 9.5vw;
+		margin-left: 22vw;
 		height: 30vh;
-		width: 80vw;
+		width: 60vw;
 	}
 
 	#c1 {
@@ -1725,7 +1727,7 @@ iframe {
 	.bottom2-2 {
 		position: absolute;
 		margin-top: -70.6vh;
-		margin-left: 71.6vw;
+		margin-left: 75vw;
 		height: 6.3vh;
 		width: 25vw;
 	}
@@ -1774,14 +1776,14 @@ iframe {
 	.mentors img {
 		box-shadow: 1vw 1vw 10px #afafaf;
 		height: 8vh;
-		width: 45vw;
+		width: 35vw;
 		margin-top: 1vh;
 		margin-left: 8vw;
 	}
 
 	.mentors {
-		margin-top: 0vh;
-		width: 60vw;
+		margin-top: 0.5vh;
+		width: 67vw;
 	}
 
 	.mentors :first-child {
@@ -1812,8 +1814,8 @@ iframe {
 	}
 
 	.middle3-2 h1 {
-		margin-top: 10vh;
-		font-size: 5vw;
+		margin-top: 8vh;
+		font-size: 4vw;
 		margin-left: 10vw;
 	}
 
@@ -1821,7 +1823,7 @@ iframe {
 		margin-left: 10vw;
 		margin-top: 7vh;
 		width: 35vw;
-		height: 1vh;
+		height: 2vh;
 		font-size: 2.5vw;
 		border: 1px solid #fff;
 	}
@@ -1830,7 +1832,7 @@ iframe {
 		margin-left: 10vw;
 		margin-top: 1vh;
 		width: 40vw;
-		height: 1vh;
+		height: 2vh;
 		font-size: 2.5vw;
 		border: 1px solid #fff;
 	}
@@ -1839,7 +1841,7 @@ iframe {
 		margin-left: 10vw;
 		margin-top: 1vh;
 		width: 35vw;
-		height: 1vh;
+		height: 2vh;
 		font-size: 2.5vw;
 		border: 1px solid #fff;
 	}
@@ -1848,7 +1850,7 @@ iframe {
 		margin-left: 10vw;
 		margin-top: 1vh;
 		width: 35vw;
-		height: 4vh;
+		height: 4.5vh;
 		font-size: 2vw;
 		border: 1px solid #fff;
 	}
@@ -1857,7 +1859,7 @@ iframe {
 		margin-left: 10vw;
 		margin-top: 1vh;
 		width: 35vw;
-		height: 4vh;
+		height: 4.5vh;
 		font-size: 2vw;
 		border: 1px solid #fff;
 	}
@@ -1865,33 +1867,33 @@ iframe {
 	.submit {
 		margin-left: 10vw;
 		width: 25vw;
-		height: 4vh;
+		height: 4.5vh;
 		font-size: 2.5vw;
 		overflow-y: hidden;
 	}
 
 	.middle3-1 h1 {
-		font-size: 2.7vw;
+		font-size: 2.25vw;
 		margin-top: 4.5vh;
 		margin-left: 5vw;
 	}
 
 	.middle3-1 h2 {
-		font-size: 2.2vw;
+		font-size: 2vw;
 		margin-top: 1.5vh;
 		margin-left: 5vw;
 		width: 25vw;
 	}
 
 	.middle3-1 h3 {
-		font-size: 2.2vw;
-		margin-top: 15.5vh;
+		font-size: 2vw;
+		margin-top: 13.5vh;
 		margin-left: 5vw;
 		width: 25vw;
 	}
 
 	.middle3-1 h4 {
-		font-size: 2.7vw;
+		font-size: 2.25vw;
 		margin-top: 0.5vh;
 		margin-left: 5vw;
 	}
@@ -1902,7 +1904,7 @@ iframe {
 
 	iframe {
 		position: absolute;
-		margin-top: 35vh;
+		margin-top: 37vh;
 		width: 100vw;
 		margin-left: 0;
 		height: 40vh;
@@ -1912,18 +1914,18 @@ iframe {
 	.email h1,
 	.phone h1,
 	.address h1 {
-		font-size: 2.5vw;
+		font-size: 2.25vw;
 	}
 
 	.email h2,
 	.phone h2,
 	.phone h3,
 	.address h2 {
-		font-size: 2.5vw;
+		font-size: 2.25vw;
 	}
 
 	.social img {
-		width: 1.5vh;
+		width: 1.75vh;
 	}
 
 	.phone {
@@ -1943,7 +1945,7 @@ iframe {
 
 	.email {
 		margin-top: 6vh;
-		margin-left: 18.5vw;
+		margin-left: 21.5vw;
 	}
 
 	.social {
